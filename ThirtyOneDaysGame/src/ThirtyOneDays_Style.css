@@ -1,0 +1,169 @@
+body {
+  box-sizing: border-box;
+  margin: 10px auto; /* centers horizontally */
+  padding: 20px;
+  text-align: center;
+  font-family: Courier, monospace;
+  background-color: #222222; /* Light Black */
+}
+
+.console {
+  margin: 0px auto;
+  border: 2px solid black;
+  background-color: forestgreen;
+  height: 725px;
+  width: 750px;
+}
+
+/* buttons */
+.console button {
+  margin: 40px auto;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.console button:hover {
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: padding 300ms, background-color 600ms;
+}
+
+.console .homeButtons {
+  background-color: gold;
+  font-size: 50px;
+  display: block;
+}
+
+.console .homeButtons:hover {
+  background-color: silver;
+}
+
+.console #backButton {
+  background-color: lightblue;
+  font-size: 50px;
+  display: none;
+}
+
+.console #backButton:hover {
+  background-color: darkgreen;
+}
+
+.console .choiceButtons {
+  margin: 30px;
+  font-size: 35px;
+  background-color: gold;
+  display: none;
+  height: 75px;
+}
+
+.console .choiceButtons:hover {
+  background-color: silver;
+  padding: 0px 20px;
+}
+
+
+/* text console */
+.console #textConsole {
+  margin: 20px auto;
+  font-size: 60px;
+  line-height: 150%;
+  min-height: 50px;
+  width: 700px;
+}
+
+/* inventory */
+.console #itemsConsole {
+  margin: 20px auto;
+  font-family: Courier, monospace;
+  font-size: 20px;
+  width: 700px;
+  display: none;
+}
+
+.console #itemsList {
+  margin: inherit;
+  padding: 0px;
+  list-style-type: none;
+  line-height: 200%;
+  color: darkgrey;
+  font-weight: bold;
+}
+
+.console .useButton {
+  background-color: darkorange;
+  border: 2px solid black;
+  padding: 1px;
+}
+
+.console .useButton:hover {
+  cursor: pointer;
+  background-color: beige;
+  padding: 5px 5px;
+  transition: padding 100ms, background-color 300ms;
+}
+
+/* stats console */
+.console #statsConsole {
+  margin: 0px;
+  font-family: Courier, monospace;
+  font-size: 20px;
+  min-height: 200px;
+  width: 700px;
+  display: none;
+}
+
+.console #statsList {
+  margin: inherit;
+  padding: 0px;
+  list-style-type: none;
+  line-height: 200%;
+  color: darkgrey;
+}
+
+/* settings stuff */
+.settings {
+  margin: 20px auto;
+  background-color: grey;
+  border: 2px solid black;
+  display: inline-block;
+  width: 50%;
+}
+
+#typeSlider {
+  margin: inherit;
+  outline: none;
+  opacity: 0.5;
+}
+
+
+#typeSlider:hover {
+  opacity: 1;
+}
+
+#winPoints {
+  font-size: 20px;
+  display: none;
+}
+
+#credits {
+  font-size: 30px;
+  display: none;
+}
+
+/* points section */
+.points {
+  margin: inherit;
+  background-color: grey;
+  border: 2px solid black;
+  width: 50%;
+}
+
+.points p {
+  margin: 0px auto;
+}
+
+.points #itemPoints {
+  margin: 10px auto;
+  width: fit-content;
+  text-align: left;
+}

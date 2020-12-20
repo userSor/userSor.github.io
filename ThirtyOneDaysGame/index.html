@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Thirty One Days</title>
+    <link href='src/ThirtyOneDays_Style.css' type='text/css' rel='stylesheet'/>
+  </head>
+  <body>
+    <section class='console'>
+
+      <p id='textConsole'>Thirty One Days</p>
+      <p id='winPoints'>(scroll down for points system)</p>
+      <section id='credits'>
+        <p>Made By: Jason Huang</p>
+        <p>Idea Contributors: Jason's friends</p>
+      </section>
+      <section id='itemsConsole'>
+        <ul id='itemsList'>
+          <li class='item' id='weapon'>Weapon: Fists</li>
+          <li class='item' id='materials'>Materials</li>
+          <li class='item'><span id='antidotes'>Antidotes</span> <span class='useButton' id='useAntidotes'>Use</span></li>
+          <li class='item'><span id='bandages'>Bandages</span> <span class='useButton' id='useBandages'>Use</span></li>
+          <li class='item'><span id='food'>Food</span> <span class='useButton' id='useFood'>Use</span></li>
+          <li class='item'><span id='water'>Water</span> <span class='useButton' id='useWater'>Use</span></li>
+        </ul>
+      </section>
+      <section id='statsConsole'>
+        <ul id='statsList'>
+          <li class='stat' id='statLabel'><em>Your Stats</em></li>
+          <li class='stat' id='health'>HEALTH</li>
+          <li class='stat' id='effects'>EFFECTS</li>
+          <li class='stat' id='hunger'>HUNGER</li>
+          <li class='stat' id='thirst'>THIRST</li>
+        </ul>
+      </section>
+
+      <section class='buttons'>
+        <button class='button homeButtons' id='playButton'>Play</button>
+        <button class='button homeButtons' id='storyButton'>Story</button>
+        <button class='button homeButtons' id='creditsButton'>Credits</button>
+        <button class='button' id='backButton'>Back</button>
+
+        <button class='button choiceButtons' id='choice1'>ACTION</button>
+        <button class='button choiceButtons' id='choice2'>ACTION</button>
+        <button class='button choiceButtons' id='choice3'>ACTION</button>
+        <button class='button choiceButtons' id='choice4'>ACTION</button>
+      </section>
+    </section>
+
+    <section class='settings'>
+      <h2 id='settingsLabel'>Settings</h2>
+      <label for='typeSlider' id='typeSliderLabel'>Text Speed: 40</label>
+      <input type='range' min='10' max='100' step='10' value='40' id='typeSlider'/>
+    </section>
+
+    <section class='points'>
+      <h2>Points System</h2>
+      <p>Points are calculated by adding the points of each item you have.</p>
+      <p>Each item is worth:</p>
+      <ol id='itemPoints'>
+        <li>Materials: 1 points</li>
+        <li>Bandages: 2 points</li>
+        <li>Food: 1 points</li>
+        <li>Water: 2 points</li>
+        <li>Antidotes: 3 points</li>
+        <li>Each Rifle Weapon Level: 10 points</li>
+      </ol>
+    </section>
+
+    <section class='scripts'>
+      <script src='src/ThirtyOneDays_Scripts.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Misc.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Buttons.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_TypeWrite.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_HomeScreen.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Stats.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Inventory.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Choice.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Morning.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Enemy.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Battle.js' type='text/javascript'></script>
+      <script src='src/ThirtyOneDays_Game.js' type='text/javascript'></script>
+    </section>
+  </body>
+</html>
