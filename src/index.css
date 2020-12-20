@@ -1,12 +1,9 @@
-* {
-
-}
-
 body {
-  background-color: black;
-  color: white;
+  margin: 0px auto;
+  background-color: #101010;
+  color: lightgray;
 }
 
 header {
-  background-color: grey;
+  background-color: #202020;
 }
