@@ -15,7 +15,6 @@ a, p {
 }
 
 a:link, a:visited {
-  color: lightgray;
   text-decoration: none;
 }
 
@@ -23,11 +22,11 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Header Stuff */
 header {
   background-color: #202020;
   margin: 0px;
   padding: 0px;
-  height: auto;
   text-align: left;
 }
 
@@ -35,6 +34,7 @@ header .item {
   display: inline-block;
   margin: auto;
   padding: 10px 40px;
+  color: gold;
 }
 
 header .item:hover {
@@ -45,4 +45,29 @@ header #logo {
   background-color: darkblue;
   font-style: italic;
   color: darkgoldenrod;
+}
+
+header #logo:link, header #logo:visited, header #logo:hover {
+  text-decoration: none;
+  color: darkgoldenrod
+}
+
+/* Section Stuff */
+section {
+  background-color: darkgreen;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid black;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+section#ThirtyOneDays a {
+  color: rebeccapurple;
 }
