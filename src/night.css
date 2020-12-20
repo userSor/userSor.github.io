@@ -25,13 +25,16 @@ a:hover {
 
 header {
   background-color: #202020;
+  margin: 0px;
+  padding: 0px;
   height: auto;
+  text-align: left;
 }
 
 header .item {
   display: inline-block;
-  margin: 0px 20px;
-  padding: 10px;
+  margin: auto;
+  padding: 10px 40px;
 }
 
 header .item:hover {
@@ -40,8 +43,6 @@ header .item:hover {
 
 header #logo {
   background-color: darkblue;
-  padding: 10px;
-  float: left;
   font-style: italic;
   color: darkgoldenrod;
 }
