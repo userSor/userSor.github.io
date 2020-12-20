@@ -1,0 +1,36 @@
+body {
+  margin: 0px auto;
+  background-color: #101010;
+  color: lightgray;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+a, p {
+  font-size: 25px;
+}
+
+a:link, a:visited {
+  color: lightgray;
+}
+
+header {
+  padding: 0px 20px;
+  height: 100px;
+  background-color: #202020;
+}
+
+header .item {
+  display: inline;
+  margin: 20px 20px;
+  padding: 10px;
+  background-color: darkblue;
+}
+
+header #logo {
+  background-color: darkred;
+}
